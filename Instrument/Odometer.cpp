@@ -15,7 +15,7 @@ void Odometer::addMile(FuelGauge &fuel)
 {
 	if (fuel.getFuel() == 0)
 	{
-		cout << "Out of fuel.";
+		cout << "Out of fuel."; 
 	}
 	else
 	{
